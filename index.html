@@ -120,7 +120,7 @@ font-weight: 100;  }
 <div class="body">
 
   <div class="download">
-    <h3 style="display: inline;">PlayTogether</h3><p style="display: inline;"> là một phần mềm được viết bằng python, giúp người dùng có thể dễ dàng tải về và quản lý các video từ Youtube và bài hát từ Spotify, một cách tiện lợi và đơn giản</p>
+    <h3 style="display: inline;">PlayTogether</h3><p style="display: inline;"> là một phần mềm được viết bằng python, giúp người dùng có thể dễ dàng tải về và quản lý các video từ Youtube và bài hát từ Spotify, một cách tiện lợi và đơn giản</p><br><br>
   </div>
   <h1>Các chức năng của phần mềm</h1>
   <div class="section">
@@ -252,23 +252,42 @@ font-weight: 100;  }
         +Di chuyển file theo ý muốn  <br>
    </div>
   </div>
+
+  <div class="section">
+    <div class="section-description">
+      <h2>Giao diện nghe nhạc và xem video</h2>
+      <p>Gồm: <br>
+        +Phần khu vực hiển thị video <br>
+        +Thanh thời lượng và Play/Pause video <br>
+        +Thanh Volume <br>
+        +Nút "Open Video" <br>
+
+        <br>
+        Chức năng : <br>
+        +Phát Video và Mp3 <br>    
+        +Dừng hoặc tua video tùy thích <br>    
+        +Mở video mới <br>    
+      </div>
+    <div class="section-image">
+      <img src="image8.png" alt="Image 1">
+    </div>
+  </div>
   <div class="section1">
     <h2>Hướng dẫn cài đặt</h2><br>
     <p>Bước 1 : Tải Source Code <a href="https://github.com/duchieu2312/OSSD_PlayTogether/archive/main.zip" download>GitHub</a>.</p><br>
     <p>Bước 2 : Cài đặt môi trường Python theo <a href="https://aptechvietnam.com.vn/huong-dan-lap-trinh-python-voi-visual-studio-code/">hướng dẫn</a>.</p><br>
     <p>Bước 3 : Cài đặt các thư viện cần thiết : </p><br>
     <p>   +PyQt5:</p>
-    <span>pip install PyQt5</span><br><br>
-    <p>   +youtube_dl:</p>
-    <span>pip install youtube_dl</span><br><br>
+    <span>pip3 install PyQt5</span><br>
+    <span>pip3 install PyQt5 PyQt5-sip PyQt5.QtSvg</span><br>
+    <span>pip3 install PyQtWebEngine</span><br><br>
     <p>   +spotipy:</p>
-    <span>pip install spotipy</span><br><br>
-    <p>   +yt_dlp:</p>
-    <span>pip install yt-dlp</span><br><br>
+    <span>pip3 install spotipy</span><br><br>
     <p>   +pytube:</p>
-    <span>pip install pytube</span><br><br>
-    <p>   +tkinter:</p>
-    <span>pip install tk</span><br><br>
+    <span>pip3 install pytube</span><br><br>
+
+    <p>   +requests:</p>
+    <span>pip3 install requests</span><br><br>
     <p>Bước 4 : Chạy file MainMenu.py</p><br>
     <p>Bước 5 : Sử dụng ứng dụng</p><br>
   
